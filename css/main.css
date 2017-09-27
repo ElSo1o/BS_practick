@@ -2,6 +2,9 @@ header{
     background:url("../img/banner.jpg");
     height: 650px;
 }
+.navbar-brand > img{
+    height: 32px;
+}
 .row{
     margin-top: 20px;
 }
@@ -101,5 +104,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.work_descr{
+    color: white;
 }
 
