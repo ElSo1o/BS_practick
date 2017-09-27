@@ -1,5 +1,36 @@
 header{
     background:url("../img/banner.jpg");
     height: 750px;
-
+}
+.row{
+    margin-top: 20px;
+}
+#top_menu > ul{
+    margin: 0;
+}
+#top_menu > ul > li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 15px;
+}
+#top_menu > ul > li >a{
+    color: white;
+    font-size: 22px;
+}
+.navbar-header > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.navbar-header > button > span{
+    color: white;
+}
+.navbar-header > a {
+    padding: 0;
+}
+.line{
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
 }
