@@ -28,9 +28,12 @@ header{
 }
 .navbar-header > a {
     padding: 0;
+    display: flex;
+    align-items: center;
 }
 .line{
     height: 1px;
     background-color: white;
     margin-top: 5px;
 }
+
