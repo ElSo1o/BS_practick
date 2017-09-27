@@ -2,9 +2,12 @@
 
 }
 @media only screen and (max-width : 992px) {
+    #top_menu > ul > li {
+        padding: 0 10px;
+    }
 
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
     #top_menu > ul > li{
         display: block;
         margin:0;
@@ -17,6 +20,12 @@
     }
     .menu{
         padding: 0;
+    }
+    .descrpt > h1{
+        font-size: 30px;
+    }
+    .descrpt > p{
+        font-size: 15px;
     }
 
 }

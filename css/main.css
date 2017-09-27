@@ -10,7 +10,7 @@ header{
 }
 #top_menu > ul > li{
     display: inline-block;
-    margin-left: 30px;
+    padding: 0 30px;
     font-size: 15px;
 }
 #top_menu > ul > li >a{
@@ -35,5 +35,26 @@ header{
     height: 1px;
     background-color: white;
     margin-top: 5px;
+}
+.descrpt{
+    text-align: center;
+    margin-top: 50px;
+}
+.descrpt > h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.descrpt > p{
+    color: white;
+    font-size: 20px;
+}
+.descrpt > button{
+    padding: 10px 30px;
+}
+.descrpt > button:focus,.descrpt > button:active{
+    border: none;
+    text-decoration: none;
+    outline: none;
 }
 
