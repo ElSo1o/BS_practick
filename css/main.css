@@ -1,6 +1,6 @@
 header{
     background:url("../img/banner.jpg");
-    height: 750px;
+    height: 650px;
 }
 .row{
     margin-top: 20px;
@@ -56,5 +56,22 @@ header{
     border: none;
     text-decoration: none;
     outline: none;
+}
+.items_icon{
+    margin-top: 50px;
+}
+.item{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.item i{
+    font-size: 70px;
+    color: #4cae4c;
+}
+.item > h3{
+    font-weight: bold;
+}
+.item > p{
+    font-size: 18px;
 }
 
