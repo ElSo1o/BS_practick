@@ -74,4 +74,32 @@ header{
 .item > p{
     font-size: 18px;
 }
+.row > .img_items {
+    padding-right: 0;
+    padding-left: 0;
+}
+.work_block > .image_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    opacity: 0;
+}
+.work_block > .image_wrap:hover{
+    background-color: rgba(79, 180, 79, 0.5);
+    opacity: 1;
+}
+.image_wrap > .work_descr{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
